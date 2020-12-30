@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "attrs-serde"
-version = "0.2.4"
+version = "0.3.1"
 authors = ["Dotan Nahum <jondotan@gmail.com>"]
 description = "A serialization addon for attrs"
 
@@ -8,9 +8,9 @@ license = "MIT"
 
 readme = "README.md"
 
-homepage = "https://github.com/jondot/attrs-serde"
-repository = "https://github.com/jondot/attrs-serde"
-documentation = "https://github.com/jondot/attrs-serde"
+homepage = "https://github.com/QuilD/attrs-serde"
+repository = "https://github.com/QuilD/attrs-serde"
+documentation = "https://github.com/QuilD/attrs-serde"
 
 keywords = ["attrs", "serialization", "dict", "data", "nested", "functional"]
 
