@@ -1,5 +1,3 @@
-watch:
-	yarn watch
 test:
 	tox
 release:
