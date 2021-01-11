@@ -10,7 +10,7 @@ def serde(cls=None, from_key="from", to_key="to"):
 
         to_fields = pipe(
             fields(cls),
-            map(lambda a: (a, get_in([to_key], a.metadata))),
+            map(lambda a: (a, get_in([to_key], a.metadata, [a.name]))),
             filter(lambda f: f[1]),
             list,
         )
